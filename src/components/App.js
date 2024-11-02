@@ -2,8 +2,9 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav>NavBar</nav>
-     
+    <nav>
+      <a href="#home">I'm a link!</a>
+    </nav>
   );
 }
 
@@ -15,21 +16,19 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
 function About() {
   return (
     <div id="about">
-      <h1>About</h1>
+      <h2>About</h2>
     </div>
-  )
+  );
 }
-
 
 function App() {
   return (
     <div>
       <NavBar />
-      <home />
+      <Home />
       <About />
     </div>
   );
